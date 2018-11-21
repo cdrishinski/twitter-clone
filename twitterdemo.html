@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
 
+  <link rel="icon" href="Icons-images/twitter-logo-transparent-twitter-background-5.png"/>
   <title>Twitter. It's what's happening.</title>
 
   <meta name="description" content="Twitter. It's what's happening.">
@@ -14,45 +15,57 @@
 
 <body>
   <div id="leftPanel">
-    <img src="Icons-images/magnifying-glass.svg"></img>
-    <h3>Follow your interests.</h3>
-    <img src="Icons-images/two-contacts.svg"></img>
-    <h3>Hear what people are talking about.</h3>
-    <img src="Icons-images/speech-bubble.svg"></img>
-    <h3>Join the conversation.</h3>
+      <div id="firstLine">
+        <img src="Icons-images/magnifying-glass.svg" class="icons" id="magnifyingGlass"></img>
+        <h3>Follow your interests.</h3>
+      </div>
+      <div id="secondLine">
+        <img src="Icons-images/two-contacts.svg" class="icons" id="people"></img>
+        <h3>Hear what people are talking about.</h3>
+      </div>
+      <div id="thirdLine">
+        <img src="Icons-images/speech-bubble.svg" class="icons" id="bubble"></img>
+        <h3>Join the conversation.</h3>
+      </div>
   </div>
+
   <div id = "rightPanel">
-    <img src="Icons-images/twitter-logo-transparent-twitter-background-5.png"></img>
-      <button> Log in</button>
+    <div id="logoLogIn">
+      <img src="Icons-images/twitter-logo-transparent-twitter-background-5.png" class="icons" id="bird"></img>
+      <button id="logInButton"> Log in</button>
+    </div>
+
     <h1>See what's happening in the world right now</h1>
-    <h3>Join Twitter today.</h3>
-    <button>Sign Up</button>
-    <button>Log in</button>
+    <h3 id="joinToday">Join Twitter today.</h3>
+    <div id="signUplogIn">
+      <button id="longSignUpButton">Sign Up</button>
+      <br>
+      <button id="longLogInButton">Log in</button>
+    </div>
   </div>
-  <footer>
-    <ul>
-      <li>About</li>
-      <li>Help Center</li>
-      <li>Blog</li>
-      <li>Status</li>
-      <li>Jobs</li>
-      <li>Terms</li>
-      <li>Privacy Policy</li>
-      <li>Cookies</li>
-      <li>Ads info</li>
-      <li>Brand</li>
-      <li>Apps</li>
-      <li>Advertise</li>
-      <li>Markeing</li>
-      <li>Business</li>
-      <li>Developers</li>
-      <li>Directory</li>
-      <li>Settings</li>
-      <li>2018 Twitter</li>
-
-
-  </footer>
-
+  <div id="footNAV">
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">Ads info</a></li>
+        <li><a href="#">Brand</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Advertise</a></li>
+        <li><a href="#">Markeing</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Developers</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Settings</a></li>
+        <li>© 2018 Twitter</li>
+      </footer>
+    </div>
 
 
   <script src="js/scripts.js"></script>

@@ -1,3 +1,134 @@
+/*{
+  border: 1px solid black;
+}*/
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.icons {
+    width: 35px;
+    float: left;
+}
 #leftPanel {
-  background-color: blue;
+  background-color: #38A1F3;
+  float: left;
+  color: white;
+  width: 50%;
+  max-width: 50%;
+  height: 550px;
+}
+#firstLine {
+padding-top: 170px;
+}
+#firstLine, #secondLine, #thirdLine {
+
+  padding-left: 130px;
+  margin-bottom: 40px;
+
+}
+#magnifyingGlass {
+  margin-top: 15px;
+}
+#magnifyingGlass, #people, #bubble {
+  margin-right: 15px;
+}
+
+#rightPanel {
+  overflow: hidden;
+  width: 50%;
+  max-width: 50%;
+  height: 550px;
+}
+#bird {
+  padding-left: 10em;
+  width: 40px;
+  }
+#logInButton {
+  position: relative;
+  margin-left: 210px;
+  color: #38A1F3;
+  padding: 15px 15px 15px 15px;
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+#logoLogIn {
+  padding-top: 170px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 5em;
+  padding-bottom: 30px;
+  width: 350px;
+}
+
+#joinToday {
+  padding-left: 8em;
+}
+
+#longSignUpButton, #longLogInButton {
+  margin-left: 8em;
+  width:350px;
+  padding: 5px 20px 5px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+#longSignUpButton{
+  background-color: #38A1F3;
+  color: white;
+  cursor: pointer;
+}
+#longSignUpButton:hover{
+  background-color: #0084b4;
+
+}
+#longLogInButton{
+  color: #38A1F3;
+  cursor: pointer;
+}
+button {
+  border: 2px solid #38A1F3
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #c0deed;
+}
+a {
+  color: #b7bbbc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #a0a4a5;
+}
+#footNAV {
+
+}
+footer {
+  position: fixed;
+  height: 55px;
+
+}
+footer ul{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer li {
+  color: #b7bbbc;
+  font-size: 15px;
+  display: inline;
+  list-style-type: none;
+  line-height: 4px;
+  margin: 2px 3px 2px 3px;
+
+
 }
